@@ -13,7 +13,7 @@ void main() {
 	int[] ids = passes
 		.map!(p => p
 			.map!(c => (c & 4) == 0 ? '1' : '0')
-		.to!int(2)).array
+			.to!int(2)).array
 		.sort.array;
 	int last = ids[0];
 	for (int i = 1; i < ids.length; i++) {
