@@ -1,5 +1,3 @@
-module app;
-
 import std.algorithm;
 import std.conv;
 import std.file;
